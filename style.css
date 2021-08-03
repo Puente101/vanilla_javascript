@@ -1,0 +1,44 @@
+.index_h1 {
+    color: blue;
+}
+
+.qf {
+    width: 520px;
+    height: 150px;
+}
+
+.link { 
+    color:black;
+}
+
+.link:visited {
+    color: black;
+}
+
+.homepage_title {
+    color: red;
+}
+
+.resource_link {
+    color: seagreen;
+}
+.resource_link:visited {
+    color: seagreen;
+}
+
+.index_link {
+    color: purple;
+}   
+
+.index_link:visited{
+    color: purple;
+}
+
+.qs {
+    width: 620px;
+    height: 200px;
+}
+
+.quadbox {
+    width: 500px;
+}

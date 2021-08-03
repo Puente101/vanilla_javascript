@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Index</title>
+</head>
+<body>
+    <h1 class='index_h1'>Index</h1>
+    <h3><a class='index_link' href='Pages/homepage.html'>Homepage</a></h3>
+    <h1>Quadratic Equations & Solutions</h1>
+    <h3>Quadratics equation can be defined as a polynomial whose power is 2; in other words, a function with x^2 being 
+    the term with the greatest degree.
+    <br>The most common form of a quadratic is displayed in the equation below, where a,b,c can each be any real number.
+    </h3>
+    <img class='qf' src="Quadratic_Equation.png"/>           
+    <h1>Quadratic Equation Solver</h1>
+    <img class='qs' src='Quadratic_Fomula.png'>
+    <br>Coefficient A<input type='text' id='a' height="200">
+    <br>Coefficient B<input type='text' id='b' height="100">
+    <br>Coefficient C<input type='text' id='c' height="100">
+    <script src='quadratic.js'></script>
+    <br><button onclick="quadratic()">Solve</button><br>
+    <h2 class='quad_ans' id='discriminant_val'></h2>
+    <h2 class='quad_ans' id='answer1'></h2>
+    <h2 class='quad_ans' id='answer2'></h2>
+    <h3 class='quad_ans' id='sqrt_arg'></h3>
+    <br><br><br>
+
+
+</body>
+</html>
